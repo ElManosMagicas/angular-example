@@ -1,5 +1,26 @@
 .login-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    //Como centrar con Flex
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // Como centrar en CSS Grid Layout
+    // display: grid;
+    // justify-content: center;
+    // align-items: center;
+    //Método de SEbas
+    // position: relative;
     &__box {
-        background-color: red;
+        background-color: #FFFFFF;
+        width: 420px;
+        min-height: 420px;
+        border-radius: 10px;
+        //Método de Sebas para centrar.
+        // position: absolute;
+        // left: calc(50% - 210px);
+        // top: calc(50% - 210px);
     }
 }

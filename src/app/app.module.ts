@@ -7,6 +7,8 @@ import { LoginBoxComponent } from './components/login-box/login-box.component';
 import { TitleComponent } from './components/title/title.component';
 import { FormComponent } from './components/form/form.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
+import { InputTextComponent } from './components/input-text/input-text.component';
+import { InputPasswordComponent } from './components/input-password/input-password.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
     LoginBoxComponent,
     TitleComponent,
     FormComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    InputTextComponent,
+    InputPasswordComponent
   ],
   imports: [
     BrowserModule,
